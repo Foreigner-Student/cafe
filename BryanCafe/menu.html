@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://kit.fontawesome.com/c0c1ac414c.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="images/logo.png"/>
+
+    <script type="text/javascript" src=""></script>
+
+    <link rel="stylesheet" href="css/template.css">
+
+    <link rel="stylesheet" href="css/hamburgerMenu.css">
+
+    <link rel="stylesheet" href="css/content.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/> 
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Bryan&apos;s Café</title>
+
+</head>
+
+
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="mobileMenuContainer">
+
+            <input title="toggler" type="checkbox" class="toggler">
+
+            <div class="mobileButtonStyle hamburger perfectCenter">
+
+                <div></div>
+
+            </div>
+
+            <button onclick="log()" type="button" class="mobile">
+                
+              <img class="log" src="Images/icon.jpg" alt="lines"  width="10%">
+              
+          </button>
+
+          <script type="text/javascript">
+          
+          function log(){
+
+              let me = document.getElementById('pho')
+              if(me.style.display == 'block'){
+                  me.style.display = 'none'
+              } else {
+                  me.style.display = 'block'
+              }
+
+          }
+
+          </script>
+
+  <ul id="pho">
+
+      <li class="foto"><a href="index.html">About</a></li>
+
+      <li class="foto"><a href="menu.html">Menu</a></li>
+
+      <li class="foto"><a href="contact.html">Contact</a></li>
+
+  </ul>
+        </div>
+
+        <nav>
+
+            <a href="index.html">
+
+                <img id="logo" src="images/logo.png" alt="Image Not Loaded" width="15%"/>
+
+            </a>
+
+            <ul class="nav">
+
+                <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <br>
+        <br>
+
+        <div class="container">
+            <h2>Our menu</h2>
+            <br>
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> Meal </a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+
+                    <br>
+                    <br>
+
+                     <strong class="accordionbody"> Beetroot and feta salad </strong> 
+                     | <h class="accordionbody"> 15.00 </h> |
+                      <h class="accordionbody"> Suitable for vegetarians, made with fresh beetroot </h> |
+                      <img class="meal" src="Images/salad.jpg">
+                            
+                                <br>
+                                <br>
+                                
+                                <strong class="accordionbody"> Sourdough Rye Sandwich </strong> | <h class="accordionbody"> 18.00 </h> | 
+                                 <pr class="accordionbody"> Cheese and salad sandwich made with organic, sourdough rye bread </pr> |
+                                 <img class="meal" src="Images/sandwich.jpg" >
+
+                                 <br>
+                                 <br>
+
+                                 <strong class="accordionbody"> Spinach Pie and Salad </strong> | <h class="accordionbody"> 20.00 </h> |
+                                 <pr class="accordionbody"> Tasty pie with salad </pr> | 
+                                 <img class="meal" src="Images/pie.jpg" >
+                                
+
+                                 <br>
+                                 <br>
+
+                                 <strong class="accordionbody"> Feta pancakes with salad </strong> | <h class="accordionbody"> 19.50 </h> | 
+                                 <pr class="accordionbody">  Tasty pancake filled with feta and salad </pr> |
+                                 <img class="meal" src="Images/pancake.jpg">
+ 
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> Hot beverage </a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    
+                    <br>
+                    <br>
+
+                    <strong class="accordionbody"> Small </strong> 
+                     | <h class="accordionbody"> 3.50 </h> |
+                      <h class="accordionbody"> For coffee, please inform the staff of the coffee type </h> |
+                      <img class="meal" src="Images/beverage.jpg">
+                            
+                                <br>
+                                <br>
+
+                                <strong class="accordionbody"> Regular </strong> | <h class="accordionbody"> 4.00 </h> | 
+                                 <pr class="accordionbody"> For coffee, please inform the staff of the coffee type </pr> |
+                                 <img class="meal" src="Images/beverage.jpg" >
+
+                                 <br>
+                                 <br>
+
+                                 <strong class="accordionbody"> Large </strong> | <h class="accordionbody"> 4.50 </h> |
+                                 <pr class="accordionbody"> For coffee, please inform the staff of the coffee type. </pr> | 
+                                 <img class="meal" src="Images/beverage.jpg" >
+
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Other beverage</a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">
+
+                    <br>
+                    <br>
+
+                    <strong class="accordionbody"> Soda </strong> 
+                     | <h class="accordionbody"> 3.00 </h> |
+                      <img class="meal" src="Images/beverage.jpg">
+                            
+                                <br>
+                                <br>
+
+                                <strong class="accordionbody"> Fresh juice </strong> | <h class="accordionbody"> 6.00 </h> | 
+                                 <img class="meal" src="Images/beverage.jpg" >
+
+                                 <br>
+                                 <br>
+
+                                 <strong class="accordionbody"> Bottled water </strong> | <h class="accordionbody"> 2.00 </h> |
+                                 <img class="meal" src="Images/beverage.jpg" >
+
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+        <script src="src/menu.js"></script>
+
+        <footer class="m-3">
+
+            &copy;<span id="currentYear"></span> Bryan's Cafe|<a href="privacyPolicy.html" target="">Privacy Policy</a>
+
+        </footer>
+
+    </div>
+
+</body>
+
+
+
+</html>
